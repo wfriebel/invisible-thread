@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC4FC281D5FF54500569247 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC4FC261D5FF54500569247 /* libc++.1.dylib */; };
+		3EC4FC291D5FF54500569247 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC4FC271D5FF54500569247 /* libz.1.dylib */; };
+		3ED8B73A1D60E4F6005C597F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED8B7391D60E4F6005C597F /* MapKit.framework */; };
+		DF0E2D971AE90472004180B0 /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D961AE90472004180B0 /* WikitudeSDK.framework */; };
+		DF0E2DA81AE9054C004180B0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D981AE9054C004180B0 /* Accelerate.framework */; };
+		DF0E2DA91AE9054C004180B0 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D991AE9054C004180B0 /* AssetsLibrary.framework */; };
+		DF0E2DAA1AE9054C004180B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9A1AE9054C004180B0 /* AVFoundation.framework */; };
+		DF0E2DAB1AE9054C004180B0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9B1AE9054C004180B0 /* CFNetwork.framework */; };
+		DF0E2DAC1AE9054C004180B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9C1AE9054C004180B0 /* CoreGraphics.framework */; };
+		DF0E2DAD1AE9054C004180B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9D1AE9054C004180B0 /* CoreLocation.framework */; };
+		DF0E2DAE1AE9054C004180B0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9E1AE9054C004180B0 /* CoreMotion.framework */; };
+		DF0E2DAF1AE9054C004180B0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2D9F1AE9054C004180B0 /* CoreVideo.framework */; };
+		DF0E2DB01AE9054C004180B0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA01AE9054C004180B0 /* JavaScriptCore.framework */; };
+		DF0E2DB31AE9054C004180B0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA31AE9054C004180B0 /* MediaPlayer.framework */; };
+		DF0E2DB41AE9054C004180B0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA41AE9054C004180B0 /* OpenGLES.framework */; };
+		DF0E2DB51AE9054C004180B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA51AE9054C004180B0 /* QuartzCore.framework */; };
+		DF0E2DB61AE9054C004180B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA61AE9054C004180B0 /* Security.framework */; };
+		DF0E2DB71AE9054C004180B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0E2DA71AE9054C004180B0 /* SystemConfiguration.framework */; };
+		DF0E2DB91AE907A8004180B0 /* ArchitectWorld in Resources */ = {isa = PBXBuildFile; fileRef = DF0E2DB81AE907A8004180B0 /* ArchitectWorld */; };
+		DF8B55FB1AE844D300E8075D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B55FA1AE844D300E8075D /* main.m */; };
+		DF8B55FE1AE844D300E8075D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B55FD1AE844D300E8075D /* AppDelegate.m */; };
+		DF8B56011AE844D300E8075D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B56001AE844D300E8075D /* ViewController.m */; };
+		DF8B56041AE844D300E8075D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8B56021AE844D300E8075D /* Main.storyboard */; };
+		DF8B56061AE844D300E8075D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8B56051AE844D300E8075D /* Images.xcassets */; };
+		DF8B56091AE844D300E8075D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8B56071AE844D300E8075D /* LaunchScreen.xib */; };
+		DF8B56151AE844D400E8075D /* AugmentedRealityApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B56141AE844D400E8075D /* AugmentedRealityApplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF8B560F1AE844D400E8075D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8B55ED1AE844D300E8075D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8B55F41AE844D300E8075D;
+			remoteInfo = AugmentedRealityApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC4FC261D5FF54500569247 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		3EC4FC271D5FF54500569247 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		3ED8B7391D60E4F6005C597F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF0E2D961AE90472004180B0 /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = AugmentedRealityApplication/Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
+		DF0E2D981AE9054C004180B0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DF0E2D991AE9054C004180B0 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DF0E2D9A1AE9054C004180B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF0E2D9B1AE9054C004180B0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF0E2D9C1AE9054C004180B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF0E2D9D1AE9054C004180B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF0E2D9E1AE9054C004180B0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DF0E2D9F1AE9054C004180B0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DF0E2DA01AE9054C004180B0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DF0E2DA31AE9054C004180B0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DF0E2DA41AE9054C004180B0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DF0E2DA51AE9054C004180B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF0E2DA61AE9054C004180B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DF0E2DA71AE9054C004180B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF0E2DB81AE907A8004180B0 /* ArchitectWorld */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ArchitectWorld; path = AugmentedRealityApplication/ArchitectWorld; sourceTree = "<group>"; };
+		DF8B55F51AE844D300E8075D /* AugmentedRealityApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedRealityApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8B55F91AE844D300E8075D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8B55FA1AE844D300E8075D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF8B55FC1AE844D300E8075D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF8B55FD1AE844D300E8075D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF8B55FF1AE844D300E8075D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF8B56001AE844D300E8075D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF8B56031AE844D300E8075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF8B56051AE844D300E8075D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF8B56081AE844D300E8075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF8B560E1AE844D400E8075D /* AugmentedRealityApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedRealityApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8B56131AE844D400E8075D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8B56141AE844D400E8075D /* AugmentedRealityApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityApplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF8B55F21AE844D300E8075D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED8B73A1D60E4F6005C597F /* MapKit.framework in Frameworks */,
+				3EC4FC281D5FF54500569247 /* libc++.1.dylib in Frameworks */,
+				3EC4FC291D5FF54500569247 /* libz.1.dylib in Frameworks */,
+				DF0E2DA81AE9054C004180B0 /* Accelerate.framework in Frameworks */,
+				DF0E2DA91AE9054C004180B0 /* AssetsLibrary.framework in Frameworks */,
+				DF0E2DAA1AE9054C004180B0 /* AVFoundation.framework in Frameworks */,
+				DF0E2DAB1AE9054C004180B0 /* CFNetwork.framework in Frameworks */,
+				DF0E2DAC1AE9054C004180B0 /* CoreGraphics.framework in Frameworks */,
+				DF0E2DAD1AE9054C004180B0 /* CoreLocation.framework in Frameworks */,
+				DF0E2DAE1AE9054C004180B0 /* CoreMotion.framework in Frameworks */,
+				DF0E2DAF1AE9054C004180B0 /* CoreVideo.framework in Frameworks */,
+				DF0E2DB01AE9054C004180B0 /* JavaScriptCore.framework in Frameworks */,
+				DF0E2DB31AE9054C004180B0 /* MediaPlayer.framework in Frameworks */,
+				DF0E2DB41AE9054C004180B0 /* OpenGLES.framework in Frameworks */,
+				DF0E2DB51AE9054C004180B0 /* QuartzCore.framework in Frameworks */,
+				DF0E2DB61AE9054C004180B0 /* Security.framework in Frameworks */,
+				DF0E2DB71AE9054C004180B0 /* SystemConfiguration.framework in Frameworks */,
+				DF0E2D971AE90472004180B0 /* WikitudeSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8B560B1AE844D400E8075D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0E2D941AE8E6DD004180B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED8B7391D60E4F6005C597F /* MapKit.framework */,
+				3EC4FC261D5FF54500569247 /* libc++.1.dylib */,
+				3EC4FC271D5FF54500569247 /* libz.1.dylib */,
+				DF0E2D981AE9054C004180B0 /* Accelerate.framework */,
+				DF0E2D991AE9054C004180B0 /* AssetsLibrary.framework */,
+				DF0E2D9A1AE9054C004180B0 /* AVFoundation.framework */,
+				DF0E2D9B1AE9054C004180B0 /* CFNetwork.framework */,
+				DF0E2D9C1AE9054C004180B0 /* CoreGraphics.framework */,
+				DF0E2D9D1AE9054C004180B0 /* CoreLocation.framework */,
+				DF0E2D9E1AE9054C004180B0 /* CoreMotion.framework */,
+				DF0E2D9F1AE9054C004180B0 /* CoreVideo.framework */,
+				DF0E2DA01AE9054C004180B0 /* JavaScriptCore.framework */,
+				DF0E2DA31AE9054C004180B0 /* MediaPlayer.framework */,
+				DF0E2DA41AE9054C004180B0 /* OpenGLES.framework */,
+				DF0E2DA51AE9054C004180B0 /* QuartzCore.framework */,
+				DF0E2DA61AE9054C004180B0 /* Security.framework */,
+				DF0E2DA71AE9054C004180B0 /* SystemConfiguration.framework */,
+				DF0E2D961AE90472004180B0 /* WikitudeSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF8B55EC1AE844D300E8075D = {
+			isa = PBXGroup;
+			children = (
+				DF0E2DB81AE907A8004180B0 /* ArchitectWorld */,
+				DF8B55F71AE844D300E8075D /* AugmentedRealityApplication */,
+				DF8B56111AE844D400E8075D /* AugmentedRealityApplicationTests */,
+				DF0E2D941AE8E6DD004180B0 /* Frameworks */,
+				DF8B55F61AE844D300E8075D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8B55F61AE844D300E8075D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B55F51AE844D300E8075D /* AugmentedRealityApplication.app */,
+				DF8B560E1AE844D400E8075D /* AugmentedRealityApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8B55F71AE844D300E8075D /* AugmentedRealityApplication */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B55FC1AE844D300E8075D /* AppDelegate.h */,
+				DF8B55FD1AE844D300E8075D /* AppDelegate.m */,
+				DF8B55FF1AE844D300E8075D /* ViewController.h */,
+				DF8B56001AE844D300E8075D /* ViewController.m */,
+				DF8B56021AE844D300E8075D /* Main.storyboard */,
+				DF8B56051AE844D300E8075D /* Images.xcassets */,
+				DF8B56071AE844D300E8075D /* LaunchScreen.xib */,
+				DF8B55F81AE844D300E8075D /* Supporting Files */,
+			);
+			path = AugmentedRealityApplication;
+			sourceTree = "<group>";
+		};
+		DF8B55F81AE844D300E8075D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B55F91AE844D300E8075D /* Info.plist */,
+				DF8B55FA1AE844D300E8075D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8B56111AE844D400E8075D /* AugmentedRealityApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B56141AE844D400E8075D /* AugmentedRealityApplicationTests.m */,
+				DF8B56121AE844D400E8075D /* Supporting Files */,
+			);
+			path = AugmentedRealityApplicationTests;
+			sourceTree = "<group>";
+		};
+		DF8B56121AE844D400E8075D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B56131AE844D400E8075D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF8B55F41AE844D300E8075D /* AugmentedRealityApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8B56181AE844D400E8075D /* Build configuration list for PBXNativeTarget "AugmentedRealityApplication" */;
+			buildPhases = (
+				DF8B55F11AE844D300E8075D /* Sources */,
+				DF8B55F21AE844D300E8075D /* Frameworks */,
+				DF8B55F31AE844D300E8075D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugmentedRealityApplication;
+			productName = AugmentedRealityApplication;
+			productReference = DF8B55F51AE844D300E8075D /* AugmentedRealityApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF8B560D1AE844D400E8075D /* AugmentedRealityApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8B561B1AE844D400E8075D /* Build configuration list for PBXNativeTarget "AugmentedRealityApplicationTests" */;
+			buildPhases = (
+				DF8B560A1AE844D400E8075D /* Sources */,
+				DF8B560B1AE844D400E8075D /* Frameworks */,
+				DF8B560C1AE844D400E8075D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8B56101AE844D400E8075D /* PBXTargetDependency */,
+			);
+			name = AugmentedRealityApplicationTests;
+			productName = AugmentedRealityApplicationTests;
+			productReference = DF8B560E1AE844D400E8075D /* AugmentedRealityApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8B55ED1AE844D300E8075D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wikitude;
+				TargetAttributes = {
+					DF8B55F41AE844D300E8075D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 56DESZECQD;
+					};
+					DF8B560D1AE844D400E8075D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DF8B55F41AE844D300E8075D;
+					};
+				};
+			};
+			buildConfigurationList = DF8B55F01AE844D300E8075D /* Build configuration list for PBXProject "AugmentedRealityApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF8B55EC1AE844D300E8075D;
+			productRefGroup = DF8B55F61AE844D300E8075D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8B55F41AE844D300E8075D /* AugmentedRealityApplication */,
+				DF8B560D1AE844D400E8075D /* AugmentedRealityApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF8B55F31AE844D300E8075D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8B56041AE844D300E8075D /* Main.storyboard in Resources */,
+				DF0E2DB91AE907A8004180B0 /* ArchitectWorld in Resources */,
+				DF8B56091AE844D300E8075D /* LaunchScreen.xib in Resources */,
+				DF8B56061AE844D300E8075D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8B560C1AE844D400E8075D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF8B55F11AE844D300E8075D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8B56011AE844D300E8075D /* ViewController.m in Sources */,
+				DF8B55FE1AE844D300E8075D /* AppDelegate.m in Sources */,
+				DF8B55FB1AE844D300E8075D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8B560A1AE844D400E8075D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8B56151AE844D400E8075D /* AugmentedRealityApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8B56101AE844D400E8075D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8B55F41AE844D300E8075D /* AugmentedRealityApplication */;
+			targetProxy = DF8B560F1AE844D400E8075D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF8B56021AE844D300E8075D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8B56031AE844D300E8075D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8B56071AE844D300E8075D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8B56081AE844D300E8075D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF8B56161AE844D400E8075D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8B56171AE844D400E8075D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8B56191AE844D400E8075D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AugmentedRealityApplication/Frameworks",
+				);
+				INFOPLIST_FILE = AugmentedRealityApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wikitude.AugmentedRealityApplicationInvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF8B561A1AE844D400E8075D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AugmentedRealityApplication/Frameworks",
+				);
+				INFOPLIST_FILE = AugmentedRealityApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wikitude.AugmentedRealityApplicationInvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF8B561C1AE844D400E8075D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AugmentedRealityApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wikitude.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentedRealityApplication.app/AugmentedRealityApplication";
+			};
+			name = Debug;
+		};
+		DF8B561D1AE844D400E8075D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AugmentedRealityApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wikitude.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentedRealityApplication.app/AugmentedRealityApplication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF8B55F01AE844D300E8075D /* Build configuration list for PBXProject "AugmentedRealityApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8B56161AE844D400E8075D /* Debug */,
+				DF8B56171AE844D400E8075D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8B56181AE844D400E8075D /* Build configuration list for PBXNativeTarget "AugmentedRealityApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8B56191AE844D400E8075D /* Debug */,
+				DF8B561A1AE844D400E8075D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8B561B1AE844D400E8075D /* Build configuration list for PBXNativeTarget "AugmentedRealityApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8B561C1AE844D400E8075D /* Debug */,
+				DF8B561D1AE844D400E8075D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8B55ED1AE844D300E8075D /* Project object */;
+}
