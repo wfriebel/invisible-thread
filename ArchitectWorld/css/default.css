@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+}
+.info {
+	font-size: 200%;
+	position: relative;
+	width: 100%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #008080;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+	display: table;
+}
+
+.link {
+    background-color: #008080;
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
