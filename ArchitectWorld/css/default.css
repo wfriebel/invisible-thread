@@ -1,0 +1,37 @@
+.marge-down {
+    margin-top: 10%;
+}
+
+.info {
+	font-size: 200%;
+    font-family: Helvetica;
+    color: White;
+	position: relative;
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	background-color: #0abab5;
+	text-align: center;
+	top: 0;
+	left: 0;
+	opacity: 0.9;
+	display: table;
+}
+
+.link {
+    background-color: #0abab5;
+    opacity: 1;
+    text-align: center;
+    color: White;
+    
+}
+
+#login {
+    height: 100%;
+    width: 100%;
+    
+}
+/**/
+/*body {*/
+/*    background-color: white;*/
+/*}*/

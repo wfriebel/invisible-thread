@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>Dragon Sample</title>
+    <script src="architect://architect.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <script type="text/JavaScript">
+        function AutoRefresh( t ) {
+            setTimeout("location.reload(true);", t);
+        }
+    </script>
+    
+</head>
+
+<body onload="JavaScript:AutoRefresh(5000);">
+
+<!--    <div id="loadingMessage" class="info"></div>-->
+<!--    <div id ="loc" class="link"><a href="javascript: World.showLocation()">Show Location</a></div>-->
+<!--    <div id ="save" class="link"><a href="javascript: World.saveLocation()">Save Location</a></div>-->
+
+<div id="new" class="link">
+    <h1><a href="menu.html">Menu</a></h1>
+</div>
+
+<div id="test" class="marge-down">
+    <h1 id="test1" class"link"> </h1>
+    <h1 id="test2" class="link marge-down"> </h1>
+    <h1 id="test3" class"link"> </h1>
+</div>
+
+<a href="javascript: LogOut()" ><h2>Logout</h2></a>
+
+
+<div class="link">
+    <form id="login">
+        <input id="username" type="text" name="username">
+        <input id="password" type="password" name="password">
+        <input type="submit" value="submit">
+    </form>
+</div>
+
+    <script src="js/modelatgeolocation.js"></script>
+
+</body>
+</html>
