@@ -17,6 +17,9 @@ InvisibleThread harnesses the technologies of Objective-C, Swift, Javascript, Ru
 InvisibleThread is not yet publicly deployed. However, a preview of our app is available through
  [Youtube](https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be)
  <iframe width="420" height="315" src="https://www.youtube.com/embed/B8CoXGI_yaA" frameborder="0" allowfullscreen></iframe>
+ 
+ <a href="(https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be" target="_blank"><img src="http://img.youtube.com/vi/B8CoXGI_yaA&feature=youtu.be/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 Additionally, here is a link to our [Presentation](https://github.com/wfriebel/invisible-thread/blob/master/Invisible%20Thread.pdf)
 
