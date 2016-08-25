@@ -1,11 +1,30 @@
 # Invisible Thread
 
+## Purpose
 Have you ever accidentally separated from your friends at a concert? Have you ever lost your vehicle in a sea of cars after a long day of shopping at the mall?
 
-Fear not, as we, the creators of InvisibleThread, have solved this cumbersome problem. We have created InvisibleThread to serve as a platform for augmented reality based peer-to-peer navigation. In a nutshell, InvisibleThread generates indicator arrows pointing toward selected geolocations. Essentially, it will navigate you to your friends or car, regardless of how crowded the venue may be. Finding a needle in a haystack will be as easy as 1-2-3 with InvisibleThread.
+## What it does
+Fear not, as we, the creators of InvisibleThread, have solved this cumbersome problem. We have created InvisibleThread to serve as a platform for augmented reality based peer-to-peer navigation.
+
+In a nutshell, InvisibleThread generates indicator arrows pointing toward selected geolocations. Essentially, it will navigate you to your friends or car, regardless of how crowded the venue may be. Finding a needle in a haystack will be as easy as 1-2-3 with InvisibleThread.
+
+InvisibleThread harnesses the technologies of Objective-C, Swift, Javascript, Ruby, Wikitude SDK, HTML5, CSS3, PostgreSQL, and many more! We decided to use a relatively large tech stack in order to learn about integrating different technologies with each other
 
 
 
+
+## Deployment
+InvisibleThread is not yet publicly deployed. However, a preview of our app is available through
+ [Youtube](https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be)
+
+Additionally, here is a link to our [Presentation](../Invisible Thread.pdf)
+
+## Team
+* [Will Friebel](https://github.com/wfriebel)
+* [Calvin Kwong](https://github.com/ckwong93)
+* [Carrie Liang](https://github.com/liangcarrie20)
+* [Taki Vlasakakis](https://github.com/takivlasakakis)
+* [Renan Souza](https://github.com/RenanBa)
 
 
 
