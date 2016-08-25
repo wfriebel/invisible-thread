@@ -11,23 +11,6 @@ In a nutshell, InvisibleThread generates indicator arrows pointing toward select
 
 InvisibleThread harnesses the technologies of Objective-C, Swift, Javascript, Ruby, Wikitude SDK, HTML5, CSS3, PostgreSQL, and many more! We decided to use a relatively large tech stack in order to learn about integrating different technologies with each other
 
-
-
-## Deployment
-InvisibleThread is not yet publicly deployed. However, a preview of our app is available on Youtube
-
-
-[![InvisibleThread](http://img.youtube.com/vi/B8CoXGI_yaA/0.jpg)](https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be)
-
-Additionally, here is a link to our [Presentation](https://github.com/wfriebel/invisible-thread/blob/master/Invisible%20Thread.pdf)
-
-## Goals
-* MVP - Implement AR based Geolocation app
-* Learn new programming languages (SWIFT, Obj-C, Java)
-* Build experience with Software Development Kits
-* Work with cross-platform functionality
-* Revolutionize peer-to=peer navigation
-
 ## Team
 
 ![alt-text](https://github.com/wfriebel/invisible-thread/blob/master/InvisibleThread/ArchitectWorld/assets/team.png)
@@ -38,6 +21,42 @@ Additionally, here is a link to our [Presentation](https://github.com/wfriebel/i
 * [Carrie Liang](https://github.com/liangcarrie20)
 * [Taki Vlasakakis](https://github.com/takivlasakakis)
 * [Renan Souza](https://github.com/RenanBa)
+
+## Goals
+* MVP - Implement AR based Geolocation app
+* Learn new programming languages (SWIFT, Obj-C, Java)
+* Build experience with Software Development Kits
+* Work with cross-platform functionality
+* Revolutionize peer-to-peer navigation
+
+## Deployment
+InvisibleThread is not yet publicly deployed. However, a preview of our app is available on Youtube
+
+
+[![InvisibleThread](http://img.youtube.com/vi/B8CoXGI_yaA/0.jpg)](https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be)
+
+Additionally, here is a link to our [Presentation](https://github.com/wfriebel/invisible-thread/blob/master/Invisible%20Thread.pdf)
+
+## Successes
+* Getting the app up and running (locally)
+* Implementing Wikitude - setting up our AR environment
+* GPS tracking based on geolocation
+
+
+## Obstacles
+* Understanding mobile app development (none of us had previous experience building iOS and Android apps)
+* Learning how to implement SDK's
+* Combining technologies
+* Troubleshooting errors in newly learned languages
+* Scheduling conflicts
+
+## Future Plans
+* Implement user base (0auth)
+* Add friends from various contact lists
+* Triangulate position for pinpoint accuracy
+* Android platform...(currently in development)
+* Deploy to App Store!
+* Getting acquired by Facebook (please)
 
 
 ## Setup
