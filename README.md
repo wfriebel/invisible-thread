@@ -1,4 +1,5 @@
-# Invisible Thread
+![alt-text](https://github.com/wfriebel/invisible-thread/blob/master/InvisibleThread/ArchitectWorld/assets/logo.png?raw=true)
+
 
 ## Purpose
 Have you ever accidentally separated from your friends at a concert? Have you ever lost your vehicle in a sea of cars after a long day of shopping at the mall? Well, we made an app for that!
@@ -12,18 +13,20 @@ InvisibleThread harnesses the technologies of Objective-C, Swift, Javascript, Ru
 
 
 
-
 ## Deployment
 InvisibleThread is not yet publicly deployed. However, a preview of our app is available on Youtube
 
 
 [![InvisibleThread](http://img.youtube.com/vi/B8CoXGI_yaA/0.jpg)](https://www.youtube.com/watch?v=B8CoXGI_yaA&feature=youtu.be)
 
-
-
-
-
 Additionally, here is a link to our [Presentation](https://github.com/wfriebel/invisible-thread/blob/master/Invisible%20Thread.pdf)
+
+## Goals
+* MVP - Implement AR based Geolocation app
+* Learn new programming languages (SWIFT, Obj-C, Java)
+* Build experience with Software Development Kits
+* Work with cross-platform functionality
+* Revolutionize peer-to=peer navigation
 
 ## Team
 
@@ -37,14 +40,11 @@ Additionally, here is a link to our [Presentation](https://github.com/wfriebel/i
 * [Renan Souza](https://github.com/RenanBa)
 
 
-
-
-
-
-
-
 ## Setup
 
-You will need: Wikitude Javascript API `Wikitude.framework` that can be downloaded [here](http://www.wikitude.com/download/)
+* You will need: Wikitude Javascript API `Wikitude.framework` that can be downloaded [here](http://www.wikitude.com/download/)
+* You will also need to generate a key and add it to `ViewController.swift`
 
-You will also need to generate a key and add it to `ViewController.swift`
+
+## Thank You
+We hope you appreciated our app! We are looking forward to deploying it to the App Store in the new future. Special thanks to Wikitude for providing us with an EDU license
