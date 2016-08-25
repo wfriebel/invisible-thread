@@ -23,7 +23,7 @@ Additionally, here is a link to our [Presentation](https://github.com/wfriebel/i
 
 ![alt-text](https://github.com/wfriebel/invisible-thread/blob/master/InvisibleThread/ArchitectWorld/assets/team.png)
 
-#### Team Members Github Links
+#### Github Links
 * [Will Friebel](https://github.com/wfriebel)
 * [Calvin Kwong](https://github.com/ckwong93)
 * [Carrie Liang](https://github.com/liangcarrie20)
