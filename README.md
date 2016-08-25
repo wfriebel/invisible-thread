@@ -1,7 +1,7 @@
 # Invisible Thread
 
 ## Purpose
-Have you ever accidentally separated from your friends at a concert? Have you ever lost your vehicle in a sea of cars after a long day of shopping at the mall?
+Have you ever accidentally separated from your friends at a concert? Have you ever lost your vehicle in a sea of cars after a long day of shopping at the mall? Well, we made an app for that!
 
 ## What it does
 Fear not, as we, the creators of InvisibleThread, have solved this cumbersome problem. We have created InvisibleThread to serve as a platform for augmented reality based peer-to-peer navigation.
