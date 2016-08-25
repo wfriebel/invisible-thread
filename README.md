@@ -37,6 +37,11 @@ InvisibleThread is not yet publicly deployed. However, a preview of our app is a
 
 Additionally, here is a link to our [Presentation](https://github.com/wfriebel/invisible-thread/blob/master/Invisible%20Thread.pdf)
 
+## Technologies Used
+![alt-text](https://github.com/wfriebel/invisible-thread/blob/master/InvisibleThread/ArchitectWorld/assets/techstack.png)
+
+
+
 ## Successes
 * Getting the app up and running (locally)
 * Implementing Wikitude - setting up our AR environment
